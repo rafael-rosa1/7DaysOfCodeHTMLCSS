@@ -212,6 +212,10 @@ body {
   border-radius: 8px;
 }
 
+.buttons__entrar:hover, .buttons__cadastrar:hover {
+  cursor: pointer;
+}
+
 .sobre {
   display: flex;
   flex-direction: column;
