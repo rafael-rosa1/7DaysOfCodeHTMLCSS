@@ -230,7 +230,7 @@ body {
   line-height: 24px;
 }
 
-.sobre h1 {
+.sobre h2 {
   color: #101828;
   font-weight: 600;
   font-size: 48px;
@@ -280,4 +280,80 @@ body {
   line-height: 24px;
   font-weight: 400;
   color: var(--text-color);
+}
+
+.talentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.talentos span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--main-color);
+  background-color: rgba(142, 36, 36, 0.05);
+  padding: 4px 12px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.talentos h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 20px;
+  color: #101828;
+}
+
+.talentos p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--text-color);
+  margin-bottom: 64px;
+}
+
+.talentos img {
+  width: 85%;
+}
+
+.area {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 64px;
+  gap: 24px
+}
+
+.area > span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+}
+
+.area__vaga {
+  padding: 24px;
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+}
+
+.area__vaga > span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+
+.informacoes {
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
 }
