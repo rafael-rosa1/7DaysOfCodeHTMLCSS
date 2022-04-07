@@ -323,7 +323,9 @@ body {
 .talentos img {
 	width: 85%;
 }
-
+.vagas {
+	padding-bottom: 96px;
+}
 .area {
 	display: flex;
 	flex-direction: column;
@@ -364,12 +366,13 @@ body {
 }
 
 .depoimentos {
-	margin-top: 96px;
-	display: flex;
 	padding: 64px;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border-radius: 16px;
 	background-color: rgba(195, 25, 25, 0.03);
+	margin: 96px 112px;
 }
 
 .depoimentos > span {
@@ -383,10 +386,11 @@ body {
 .depoimentos > p {
 	font-weight: 500;
 	font-size: 36px;
-	line-height: 44px;
 	color: #101828;
 	text-align: center;
+	line-height: 44px;
 	margin-bottom: 32px;
+	letter-spacing: -0.02em;
 }
 
 .depoimentos__perfil {
@@ -413,4 +417,61 @@ body {
 	font-size: 14px;
 	line-height: 20px;
 	color: #667085;
+}
+
+.rodape {
+	padding: 96px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.rodape h2 {
+	font-size: 36px;
+	line-height: 44px;
+	font-weight: 600;
+	color: #101828;
+	margin-bottom: 20px;
+}
+
+.rodape > span {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: var(--text-color);
+}
+.cadastro {
+	display: flex;
+	justify-content: center;
+	width: 34%;
+	margin-top: 40px;
+	margin-bottom: 32px;
+}
+.rodape input {
+	flex-grow: 1;
+	font-size: 16px;
+	color: #667085;
+	padding: 12px 14px 12px 16px;
+	border-radius: 8px;
+	border: 1px solid #d0d5dd;
+}
+
+.rodape button {
+	margin-left: 16px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	width: 116px;
+	height: 48px;
+	border: 1px solid var(--main-color);
+	background-color: var(--main-color);
+	border-radius: 8px;
+	padding: 12px 20px;
+}
+
+.rodape__direitos {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #98a2b3;
 }
